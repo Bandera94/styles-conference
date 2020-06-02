@@ -11,8 +11,10 @@
          url('../fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-100.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-100.svg#Roboto') format('svg'); /* Legacy iOS */
   }
-  /* roboto-300 - latin_cyrillic */
-  @font-face {
+
+/* roboto-300 - latin_cyrillic */
+
+@font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
@@ -24,8 +26,10 @@
          url('../fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-300.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-300.svg#Roboto') format('svg'); /* Legacy iOS */
   }
-  /* roboto-regular - latin_cyrillic */
-  @font-face {
+
+/* roboto-regular - latin_cyrillic */
+
+@font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
