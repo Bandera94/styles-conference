@@ -329,8 +329,8 @@ p a {
 
 .primary-header a:hover,
 .primary-footer a:hover {
-    color: #648880;
     border-bottom: 2px solid #fff;
+    color: #648880;
 }
 
 /*
@@ -389,7 +389,7 @@ p a {
     text-transform: uppercase;
 }
 
-.logo a:hover{
+.logo a:hover {
     border-bottom: none;
 }
 
@@ -466,9 +466,8 @@ p a {
     font-weight: 100;
 }
 
-.teaser a h3{
-    height: 30px;
-    padding-top: 5px;
+.teaser a h3 {
+    padding: 3px 0 3px 0;
     text-align: center;
     transition: 0.25s;
 }
@@ -479,7 +478,7 @@ p a {
     color: #fff;
 }
 
-.teaser a img {
+.teaser img {
     border-radius: 5px;
     display: block;
     margin-bottom: 22px;
@@ -487,7 +486,7 @@ p a {
     transition: 0.25s;
 }
 
-.teaser a:hover img{
+.teaser a:hover img {
     opacity: 0.8;
 }
 
