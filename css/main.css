@@ -311,6 +311,7 @@ em {
 a {
     color: #648880;
     text-decoration: none;
+    transition: 0.25s;
 }
 
 a:hover {
@@ -328,6 +329,7 @@ p a {
 
 .primary-header a:hover,
 .primary-footer a:hover {
+    border-bottom: 2px solid #fff;
     color: #648880;
 }
 
@@ -351,6 +353,7 @@ p a {
 .btn-alt {
     border: 1px solid #dfe2e5;
     padding: 10px 30px;
+    transition: 0.25s;
 }
 
 .btn-alt:hover {
@@ -384,6 +387,10 @@ p a {
     line-height: 44px;
     padding: 40px 0 22px 0;
     text-transform: uppercase;
+}
+
+.logo a:hover {
+    border-bottom: none;
 }
 
 .tagline {
@@ -458,8 +465,16 @@ p a {
     font-weight: 100;
 }
 
+.teaser a h3 {
+    padding: 3px 0 3px 0;
+    text-align: center;
+    transition: 0.25s;
+}
+
 .teaser a:hover h3 {
-    color: #a9b2b9;
+    background-color: #293f50;
+    border-radius: 5px;
+    color: #fff;
 }
 
 .teaser img {
@@ -467,6 +482,11 @@ p a {
     display: block;
     margin-bottom: 22px;
     max-width: 100%;
+    transition: 0.25s;
+}
+
+.teaser a:hover img {
+    opacity: 0.8;
 }
 
 /*
